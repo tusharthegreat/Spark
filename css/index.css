@@ -1,0 +1,129 @@
+body{
+    font-family: 'Manjari', sans-serif;
+}
+#comp_name{
+    font-size:200%;
+    color: purple;
+    font-family: 'Londrina Sketch', cursive;
+}
+#nav_bar,#footer_bar{
+    padding: 1%;
+    border-radius: 15px;
+    margin-top:1%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#footer_bar{
+    text-align: center; 
+}
+#float-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+#logo_img{
+    width:45%;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin{100%{-moz-transform: rotate(360deg);}}
+@-webkit-keyframes spin{100% {-webkit-transform: rotate(360deg);}}
+@keyframes spin{100% {-webkit-transform: rotate(360deg); transform:rotate(360deg);}}
+
+#agenda ,#donate_div,#donate_div_main{
+    text-align: center;
+    font-size: x-large;
+    height:70vh;
+    margin :2%;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#donate_div_main{
+    margin: 2% auto;
+    width:65%;
+    background-image: url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    color: white;
+}
+#aa,#thank{
+    width: 70%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin:4%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+a{
+    margin:2%;
+    font-size:larger;
+    text-decoration: none;
+}
+.aaa{
+    border-radius: 20px;
+    border: 2px solid;
+    padding: 2%;
+    backdrop-filter: blur(5px);
+}
+#thank{
+    font-family: arial;
+    font-size: 350%;
+    font-weight: 800;
+    letter-spacing: -6px;
+    background: url(https://media.istockphoto.com/photos/pink-purple-and-navy-blue-defocused-blurred-motion-gradient-abstract-picture-id1152472627?k=6&m=1152472627&s=612x612&w=0&h=438rk7BUP5bsjX8ZvKYIQki6B17uk4eST40XwH2GVVg=) no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+a,.aaa:hover{
+    color:white;
+    padding: 0.5%;
+    border-radius: 5px;
+    backdrop-filter:blur(0px);
+    border: 0px;
+    background: #780206; 
+    background: rgb(6,37,156);
+    background: linear-gradient(45deg, rgba(6,37,156,1) 0%, rgba(253,29,29,1) 71%, rgba(252,176,69,1) 100%);
+}
+.aaa:hover{
+    padding: 2%;
+    border-radius: 20px;;
+}
+
+#act_link{
+    color:white;
+    padding: 0.5%;
+    border-radius: 5px;
+    backdrop-filter:blur(0px);
+    border: 0px;
+    background: #7b4397;
+}
+.bner_dnet_btn{
+    margin: 4%;
+    padding: 3%;
+    border-radius: 15px;
+}
+
+#thank_div_main{
+    text-align: center;
+    font-size: x-large;
+    height:70vh;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 2% auto;
+    color:transparent;
+    width:65%;
+    background-image: url("https://media.children.org/cdn-8d8857a9d085b00/globalassets/_global-content-blocks/fy20_email_sign_up_a.jpg");
+}
+#about_div_main{
+    text-align: center;
+    font-size: x-large;
+    height:70vh;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 2% auto;
+
+    width:65%;
+    
+}
